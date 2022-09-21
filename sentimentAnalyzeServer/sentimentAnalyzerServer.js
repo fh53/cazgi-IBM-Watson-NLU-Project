@@ -68,7 +68,7 @@ app.get("/url/emotion", (req,res) => {
 //The endpoint for the webserver ending with /url/sentiment
 app.get("/url/sentiment", (req,res) => {
     let urlToAnalyze = req.query.url
-    const analyseParams = 
+    const analyzeParams = 
     {
         "url": urlToAnalyze,
         "features": {
